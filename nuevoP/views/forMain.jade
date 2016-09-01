@@ -1,0 +1,10 @@
+extends layout
+ 
+block content
+    h1= title
+    form(id="formulario")
+        div.input
+            span.label Description
+            textarea(name="description", cols="100", rows="3")
+        div.actions
+            input(id="botonEnviar",type="submit", value="enviar")
